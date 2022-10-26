@@ -1,8 +1,14 @@
-#gameContainer {
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #gameContainer {
   font-family: "Permanent Marker", cursive;
   text-align: center;
 }
-#gameContainer .cell {
+body #gameContainer .cell {
   width: 75px;
   height: 75px;
   border: 2px solid;
@@ -11,7 +17,7 @@
   font-size: 50px;
   cursor: pointer;
 }
-#gameContainer #cellContainer {
+body #gameContainer #cellContainer {
   display: grid;
   grid-template-columns: repeat(3, auto);
   width: 225px;

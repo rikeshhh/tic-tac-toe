@@ -1,4 +1,8 @@
-
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 #gameContainer{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
@@ -17,4 +21,5 @@
         width: 225px;
         margin: auto;
     }
+}
 }
