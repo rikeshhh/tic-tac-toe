@@ -54,6 +54,7 @@ function checkWinner() {
     }
   }
   if (roundWon) {
+    statusText.classList.add('text-color');
     statusText.textContent = `${currentPlayer}'s wins!`;
     running = false;
   } else if (!options.includes("")) {
@@ -71,3 +72,6 @@ function restartGame() {
   cells.forEach((cell) => (cell.textContent = ""));
   running = true;
 }
+setTimeout(()=>{
+alert("Imma sorry yoo!")
+},1000)

@@ -3,9 +3,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../nature.jpg) no-repeat center center/cover;
 #gameContainer{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
+    h1{
+        color: white;
+        text-shadow: 2px 4px black;
+    }
     .cell{
         width: 75px;
         height: 75px;
@@ -14,12 +19,28 @@ body{
         line-height: 75px;
         font-size: 50px;
         cursor: pointer;
+        color: white;
     }
     #cellContainer{
         display: grid;
         grid-template-columns: repeat(3,auto);
         width: 225px;
         margin: auto;
+        color: white;
+
+    }
+    #restartBtn{
+        font-size: 20px;
+        background: transparent;
+        padding: 10px;
+     font-family: 'Poppins', sans-serif;
+     border: 2px solid green;
+    color: white;
+    }
+    .text-color{
+        color: black;
+        font-size: 20px;
+        text-shadow: 4px 2px red;
     }
 }
 }
